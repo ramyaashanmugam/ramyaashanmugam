@@ -10,4 +10,4 @@ EXPOSE 5001
 
 ENTRYPOINT [ "python" ]
 
-CMD [ "demo.py" ]
+CMD [ "flask_pjt/weather.py" ]

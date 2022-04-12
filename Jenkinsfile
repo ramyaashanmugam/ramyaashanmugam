@@ -10,6 +10,7 @@ pipeline {
 
                 sh 'python --version'
                 sh 'mkdir test'
+                sh 'ls -l'
 
             }
 

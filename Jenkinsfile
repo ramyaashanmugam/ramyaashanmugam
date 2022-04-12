@@ -10,6 +10,7 @@ pipeline {
 
                 sh 'python --version'
                 sh 'ls -l'
+                sh 'pip install flask'
                 sh 'python flask_pjt/weather.py'
 
             }

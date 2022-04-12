@@ -9,6 +9,7 @@ pipeline {
             steps {
 
                 sh 'python --version'
+                sh 'mkdir test'
 
             }
 
